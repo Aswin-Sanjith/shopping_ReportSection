@@ -1,0 +1,62 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{   
+    width: 100%;
+
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sellerDetails
+{
+    margin-top: 40spx;
+    margin-bottom: 40px;
+}
+.sellerDetails h4
+{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.table
+{
+    border: 1px solid grey;
+}
+.head h3
+{
+    color:blue;
+    margin-top: 10px;
+    margin-bottom : 10px;
+}
+.head p
+{
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.grossSales
+{
+    font-size: 18px;
+    margin: 10px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.unitsSold
+{
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 600;
+}
+table,th,td
+{
+    border:1px solid black;
+}
