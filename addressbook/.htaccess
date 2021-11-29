@@ -1,0 +1,5 @@
+# Turn Rewrite Engine on
+RewriteEngine on
+
+#Rewrite for login.cfm
+RewriteRule ^login login.cfm[NC, L] 

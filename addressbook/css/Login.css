@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+body
+{
+    width: 100%;
+    background-color: #d8e5f1;
+}
+/* head starts */
+.head
+{
+    width: 100%;
+    background-color: #337ab7;
+    display: flex;
+    
+}
+.left_head
+{
+    display: flex;
+    margin: 10px;
+    margin-left: 100px;
+
+}
+.head img
+{
+    height: 45px;
+}
+.head h3
+{
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 10px;
+}
+.right_head 
+{
+    margin: 7px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 200px;
+}
+.right_head  img
+{
+    height: 30px;
+    margin-top: 10px;
+}
+.right_head a
+{
+    margin: 7px;
+    margin-top: 12px;
+    color: white;
+}
+/* head ends */
+.container
+{
+   margin: auto;
+   margin-top: 100px;
+   width: 600px;
+   background-color: white;
+   display: flex;
+   border-radius: 15px;
+   -webkit-box-shadow: 2px 5px 5px 3px rgba(0,0,0,0.28);
+   -moz-box-shadow: 2px 5px 5px 3px rgba(0,0,0,0.28);
+    box-shadow: 2px 5px 5px 3px rgba(0,0,0,0.28);
+}
+.container .containerBox1 
+{
+    background-color: #337ab7;
+    width: 300px;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px; 
+}
+.container .containerBox1 img
+{
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+.container .containerBox2
+{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.container .containerBox2 h3
+{
+  color:#337ab7;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.container .containerBox2 input
+{
+    width: 100%;
+    font-size: 18px;
+    display: block;
+    padding: 5px;
+    padding-left: 20px;
+    font-weight: 400;
+    border: transparent;
+    border-bottom: 1px solid rgba(180, 179, 179, 0.822);
+    margin-bottom: 40px;
+    outline: none;
+}
+.container .containerBox2 #submit
+{
+    border: 1px solid #337ab7;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #337ab7;
+    font-weight: 500;
+    width: 80%;
+    
+}
+#sign_in
+{
+    margin-top: 40px;
+}
+.logins
+{
+    margin-top: 20px;
+}
+.logins img
+{
+    padding-top:10px;
+    height: 60px;
+}
+.logins #f_img
+{
+    padding:0px;
+    height: 50px;
+}
+.flex
+{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.flex a
+{
+    color: #337ab7;
+}
+
+.message
+{
+    margin-bottom: 40px;
+    text-align: left;
+    color: red;  
+}
+#ServerError
+{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
